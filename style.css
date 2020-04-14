@@ -35,3 +35,46 @@ li {
 .list-text:nth-child(odd) {
 	background-color: #DDDDDD;
 }
+
+.box-container {
+	padding-bottom: 50px;
+}
+
+.box {
+	background-color: yellow;
+	width: 30%;
+	height: 200px;
+	margin-right: 5%;
+	margin-bottom: 40px;
+	float: left;
+}
+
+.box:nth-child(3n) {
+	margin-right: 0;
+}
+
+.box:nth-child(n+7):nth-child(-n+9) {
+	margin-bottom: 50px;
+}
+
+.orange {
+	background-color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
